@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Cookbook</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>🍲 Our Cookbook</h1>
+    <p class="subtitle">A little collection of recipes we love</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search recipes, ingredients, or tags..." />
+    </div>
+
+    <section class="filters-panel">
+      <div class="filters-panel-header">
+        <h2>Filters</h2>
+        <div class="filters-meta">
+          <span id="result-count" class="result-count"></span>
+          <button id="clear-filters" class="clear-filters-btn" type="button" hidden>Clear all</button>
+        </div>
+      </div>
+      <div id="filter-groups" class="filter-groups"></div>
+    </section>
+
+    <section id="recipe-grid" class="recipe-grid"></section>
+
+    <p id="empty-state" class="empty-state" hidden>No recipes match your search and filters.</p>
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay" hidden>
+    <div class="modal">
+      <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

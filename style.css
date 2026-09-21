@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --cream: #fdf6ec;
+  --card: #fffaf2;
+  --terracotta: #c9704a;
+  --terracotta-dark: #a85a38;
+  --olive: #6b7a4f;
+  --cuisine: #4f7690;
+  --season: #b9862c;
+  --favorite: #c14f6d;
+  --ink: #4a3f35;
+  --muted: #8a7c6d;
+  --border: #ecdfcd;
+  --shadow: rgba(90, 62, 40, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Nunito Sans', sans-serif;
+  min-height: 100vh;
+}
+
+.site-header {
+  text-align: center;
+  padding: 3.5rem 1rem 2.25rem;
+  background: linear-gradient(180deg, rgba(201, 112, 74, 0.08), transparent 70%);
+}
+
+.site-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.75rem;
+  margin: 0 0 0.5rem;
+  color: var(--terracotta-dark);
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin: 0;
+  font-style: italic;
+}
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+#search {
+  width: 100%;
+  max-width: 460px;
+  padding: 0.75rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  font-size: 1rem;
+  color: var(--ink);
+  outline: none;
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: box-shadow 0.15s ease;
+}
+
+#search:focus {
+  box-shadow: 0 0 0 3px rgba(201, 112, 74, 0.2);
+}
+
+/* Filters panel */
+.filters-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.4rem 1.6rem 1.6rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 14px var(--shadow);
+}
+
+.filters-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.filters-panel-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  margin: 0;
+  color: var(--terracotta-dark);
+}
+
+.filters-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result-count {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.clear-filters-btn {
+  border: none;
+  background: none;
+  color: var(--terracotta);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.clear-filters-btn:hover {
+  text-decoration: underline;
+}
+
+.filter-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.filter-group h4 {
+  margin: 0 0 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-pill {
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  color: var(--ink);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-pill:hover {
+  border-color: currentColor;
+}
+
+.filter-pill-category { color: var(--terracotta-dark); }
+.filter-pill-cuisine { color: var(--cuisine); }
+.filter-pill-season { color: var(--season); }
+.filter-pill-status { color: var(--favorite); }
+.filter-pill-tags { color: var(--olive); }
+.filter-pill-rating { color: var(--season); }
+
+.filter-pill.active {
+  color: white;
+  border-color: transparent;
+}
+
+.filter-pill-category.active { background: var(--terracotta-dark); }
+.filter-pill-cuisine.active { background: var(--cuisine); }
+.filter-pill-season.active { background: var(--season); }
+.filter-pill-status.active { background: var(--favorite); }
+.filter-pill-tags.active { background: var(--olive); }
+.filter-pill-rating.active { background: var(--season); }
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+
+.recipe-card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border: 1px solid var(--border);
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px var(--shadow);
+}
+
+.recipe-card h3 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.card-media {
+  position: relative;
+  width: calc(100% + 3rem);
+  margin: -1.5rem -1.5rem 0;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+  transition: transform 0.25s ease;
+}
+
+.recipe-card:hover .card-image {
+  transform: scale(1.03);
+}
+
+.card-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  font-size: 2.5rem;
+  background: var(--cream);
+  color: var(--muted);
+}
+
+.card-badges {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+
+.badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  white-space: nowrap;
+}
+
+.badge-rating {
+  background: rgba(253, 246, 236, 0.92);
+  color: var(--season);
+  letter-spacing: 0.02em;
+}
+
+.badge-status {
+  background: rgba(193, 79, 109, 0.92);
+  color: white;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 0.8rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.recipe-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.recipe-tags span,
+.modal-badges + .recipe-tags span {
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.pill-category {
+  background: rgba(168, 90, 56, 0.12);
+  color: var(--terracotta-dark);
+}
+
+.pill-cuisine {
+  background: rgba(79, 118, 144, 0.12);
+  color: var(--cuisine);
+}
+
+.pill-season {
+  background: rgba(185, 134, 44, 0.14);
+  color: var(--season);
+}
+
+.pill-tag {
+  background: rgba(107, 122, 79, 0.12);
+  color: var(--olive);
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--muted);
+  margin-top: 3rem;
+  font-style: italic;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(74, 63, 53, 0.45);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem 1rem;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.modal-overlay[hidden] {
+  display: none;
+}
+
+.modal {
+  background: var(--card);
+  border-radius: 18px;
+  max-width: 600px;
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.modal-close:hover {
+  color: var(--terracotta-dark);
+}
+
+.modal-image {
+  width: calc(100% + 4rem);
+  margin: -2rem -2rem 1.2rem;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+}
+
+.modal h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--terracotta-dark);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.modal-badges {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.modal-badges .badge {
+  position: static;
+  box-shadow: none;
+  border: 1px solid var(--border);
+}
+
+.modal-badges .badge-rating {
+  background: rgba(185, 134, 44, 0.14);
+}
+
+.modal-badges .badge-status {
+  background: rgba(193, 79, 109, 0.14);
+  color: var(--favorite);
+}
+
+.modal .recipe-meta {
+  margin-bottom: 0.9rem;
+}
+
+.modal .recipe-tags {
+  margin-bottom: 1.2rem;
+}
+
+.modal h4 {
+  color: var(--olive);
+  margin-bottom: 0.4rem;
+}
+
+.modal h5 {
+  color: var(--terracotta-dark);
+  font-size: 0.95rem;
+  margin: 1rem 0 0.3rem;
+}
+
+.modal ul, .modal ol {
+  padding-left: 1.2rem;
+  margin-top: 0.3rem;
+}
+
+.modal li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.muted-note {
+  color: var(--muted);
+  font-style: italic;
+  margin: 0.3rem 0;
+}
+
+.source-link {
+  display: inline-block;
+  margin-top: 1.2rem;
+  color: var(--terracotta);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .site-header h1 {
+    font-size: 2.1rem;
+  }
+
+  .filters-panel {
+    padding: 1.1rem 1.1rem 1.3rem;
+  }
+
+  .recipe-grid {
+    grid-template-columns: 1fr;
+  }
+}
