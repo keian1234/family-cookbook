@@ -101,6 +101,47 @@ main {
   color: var(--terracotta-dark);
 }
 
+.filters-toggle-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.filters-toggle {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.filters-toggle-chevron {
+  color: var(--terracotta-dark);
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.filters-toggle[aria-expanded="false"] .filters-toggle-chevron {
+  transform: rotate(-90deg);
+}
+
+.filters-collapse {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+.filters-collapse.collapsed {
+  grid-template-rows: 0fr;
+}
+
+.filters-collapse > .filter-groups {
+  overflow: hidden;
+  min-height: 0;
+}
+
 .filters-meta {
   display: flex;
   align-items: center;

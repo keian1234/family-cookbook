@@ -12,6 +12,9 @@ const searchInput = document.getElementById("search");
 const filterGroupsEl = document.getElementById("filter-groups");
 const resultCountEl = document.getElementById("result-count");
 const clearFiltersBtn = document.getElementById("clear-filters");
+const filtersToggle = document.getElementById("filters-toggle");
+const filtersToggleGroup = document.getElementById("filters-toggle-group");
+const filtersCollapse = document.getElementById("filters-collapse");
 const modalOverlay = document.getElementById("modal-overlay");
 const modalContent = document.getElementById("modal-content");
 const modalClose = document.getElementById("modal-close");
@@ -257,6 +260,37 @@ function clearFilters() {
   renderGrid();
 }
 
+function applyFiltersCollapsedUI(collapsed) {
+  filtersCollapse.classList.toggle("collapsed", collapsed);
+  filtersToggle.setAttribute("aria-expanded", String(!collapsed));
+  // Keep the collapsed panel's controls out of the tab order and the
+  // accessibility tree — CSS alone (zero-height + overflow) still leaves
+  // them focusable, which strands keyboard/screen-reader users on
+  // invisible pills.
+  filtersCollapse.inert = collapsed;
+}
+
+function setFiltersCollapsed(collapsed) {
+  applyFiltersCollapsedUI(collapsed);
+  try {
+    localStorage.setItem("cookbook-filters-collapsed", collapsed ? "1" : "0");
+  } catch (e) {
+    // localStorage unavailable (e.g. private browsing) — collapse state just won't persist
+  }
+}
+
+function initFiltersCollapsed() {
+  let collapsed = false;
+  try {
+    collapsed = localStorage.getItem("cookbook-filters-collapsed") === "1";
+  } catch (e) {
+    // ignore
+  }
+  // Apply the restored state without immediately writing the same value
+  // straight back to storage.
+  applyFiltersCollapsedUI(collapsed);
+}
+
 modalClose.addEventListener("click", closeModal);
 modalOverlay.addEventListener("click", e => {
   if (e.target === modalOverlay) closeModal();
@@ -266,6 +300,10 @@ document.addEventListener("keydown", e => {
 });
 searchInput.addEventListener("input", renderGrid);
 clearFiltersBtn.addEventListener("click", clearFilters);
+filtersToggleGroup.addEventListener("click", () => {
+  setFiltersCollapsed(!filtersCollapse.classList.contains("collapsed"));
+});
 
 renderFilterGroups();
 renderGrid();
+initFiltersCollapsed();
