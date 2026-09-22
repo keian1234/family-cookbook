@@ -31,6 +31,7 @@ let activeMinRating = null;
 function statusLabel(status) {
   if (status === "Favorite") return "💗 Favorite";
   if (status === "Made") return "✓ Made";
+  if (status === "New") return "🆕 New";
   return status;
 }
 

@@ -8,13 +8,21 @@ const RECIPES = [
     category: [
       "Dessert"
     ],
-    cuisine: [],
-    season: [],
-    status: null,
+    cuisine: [
+      "🇺🇸 American"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "New",
     tags: [
       "Baking"
     ],
-    rating: null,
+    rating: 3,
     time: "30 min",
     servings: 36,
     ingredients: [
@@ -66,8 +74,8 @@ const RECIPES = [
       "Watch Parties"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "20 min",
+    servings: 8,
     ingredients: [
       "6 Roma tomatoes",
       "1/2 white onion",
@@ -107,8 +115,8 @@ const RECIPES = [
       "Meal Prep"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "2 hr",
+    servings: "10+",
     ingredients: [
       "2 cups Shredded rotisserie Chicken",
       "2/3 - 3/4 container of Good Culture cottage cheese",
@@ -151,8 +159,8 @@ const RECIPES = [
       "Watch Parties"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "2 hr 15 min",
+    servings: 12,
     ingredients: [
       "2 packages (8 ounces each) cream cheese, cut into chunks",
       "4 cups shredded cooked chicken",
@@ -189,8 +197,8 @@ const RECIPES = [
       "Meal Prep"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "1 hr 30 min",
+    servings: 8,
     ingredients: [
       "1/2 Tablespoon butter",
       "2 ribs celery, diced",
@@ -239,8 +247,8 @@ const RECIPES = [
       "Meal Prep"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "40 min",
+    servings: 6,
     ingredients: [
       {
         group: "Crust",
@@ -304,8 +312,8 @@ const RECIPES = [
       "Watch Parties"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "20 min",
+    servings: 16,
     ingredients: [
       "1 day-old French baguette",
       "¼ cup butter, softened",
@@ -343,8 +351,8 @@ const RECIPES = [
       "Meal Prep"
     ],
     rating: 4,
-    time: "",
-    servings: null,
+    time: "4-6 hr (with marinate)",
+    servings: 8,
     ingredients: [
       "2 - 3 lbs chicken thighs",
       "1 1/2 tbsp olive oil",
@@ -389,8 +397,8 @@ const RECIPES = [
       "Meal Prep"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "45 min",
+    servings: 8,
     ingredients: [
       {
         group: "Burgers",
@@ -453,7 +461,10 @@ const RECIPES = [
       "🍂 Fall"
     ],
     status: null,
-    tags: [],
+    tags: [
+      "Comfort Food",
+      "Healthy"
+    ],
     rating: 5,
     time: "28 min",
     servings: 6,
@@ -504,8 +515,8 @@ const RECIPES = [
       "Meal Prep"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "1 hr 30 min",
+    servings: 8,
     ingredients: [
       "2 pounds boneless chuck roast",
       "3 tablespoons extra-virgin olive oil divided",
@@ -554,10 +565,13 @@ const RECIPES = [
       "🍂 Fall"
     ],
     status: "Made",
-    tags: [],
+    tags: [
+      "Comfort Food",
+      "Meal Prep"
+    ],
     rating: 4,
-    time: "",
-    servings: null,
+    time: "1 hr",
+    servings: 8,
     ingredients: [
       "1/2 lb ground beef",
       "1/2 lb italian sausage",
@@ -615,8 +629,8 @@ const RECIPES = [
       "Watch Parties"
     ],
     rating: 5,
-    time: "",
-    servings: null,
+    time: "45 min",
+    servings: 8,
     ingredients: [
       "8 oz. Of cream cheese well softened",
       "1/4 cup of sour cream",
@@ -657,7 +671,7 @@ const RECIPES = [
     ],
     rating: 5,
     time: "1 hr 15 min",
-    servings: null,
+    servings: 8,
     ingredients: [
       "2 tablespoons extra virgin olive oil",
       "1 medium yellow onion, chopped",
