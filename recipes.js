@@ -127,17 +127,17 @@ const RECIPES = [
       "🍂 Fall",
       "🎄 Holiday"
     ],
-    status: "Made",
+    status: "Favorite",
     tags: [
       "Comfort Food"
     ],
-    rating: null,
+    rating: 5,
     time: "55 min",
     servings: 4,
     ingredients: [
       "2 pints cherry tomatoes",
       "1-2 Boursin cheese",
-      "Goat cheese",
+      "Goat cheese (optional)",
       "3-4 garlic cloves, finely minced",
       "1-2 tbsp olive oil",
       "1 tbsp chili flakes or aleppo pepper",
@@ -554,7 +554,7 @@ const RECIPES = [
       "Comfort Food",
       "Healthy"
     ],
-    rating: null,
+    rating: 4,
     time: "1 hr 15 min",
     servings: 6,
     ingredients: [
@@ -1199,15 +1199,15 @@ const RECIPES = [
       "Healthy",
       "Meal Prep"
     ],
-    rating: null,
+    rating: 4,
     time: "1 hr 10 min",
     servings: "2-4",
     ingredients: [
       {
-        group: "Sweet Potatoes & Taco Beef",
+        group: "Sweet Potatoes & Taco Meat",
         items: [
           "2 medium sweet potatoes (wide ones are easier to stuff)",
-          "1 lb grass fed ground beef",
+          "1 lb grass fed ground beef or ground turkey (either works)",
           "1 cup onions, diced",
           "3 cloves garlic, minced",
           "1/2 cup tomato sauce, homemade or store bought",
@@ -1239,8 +1239,8 @@ const RECIPES = [
       "Preheat oven to 400°F. Line a baking sheet with aluminum foil or parchment paper.",
       "Wash the sweet potatoes, scrub thoroughly, then dry completely.",
       "Using a fork, poke the sweet potatoes all over and place on the baking sheet. Bake for 50-60 minutes or until tender and easily pierced through to the center with a fork.",
-      "While the sweet potatoes bake, prepare the taco ground beef. In a skillet, add olive oil over medium high heat.",
-      "Add the ground beef and brown until no longer pink. Reduce the heat to medium and add the onion and garlic. Sauté until the onions are translucent.",
+      "While the sweet potatoes bake, prepare the taco meat. In a skillet, add olive oil over medium high heat.",
+      "Add the ground beef or turkey and brown until no longer pink. Reduce the heat to medium and add the onion and garlic. Sauté until the onions are translucent.",
       "Add all the spices and mix everything well to combine.",
       "Pour over the tomato sauce and water. Reduce the heat to low, cover with a lid, and cook for 20-25 minutes, stirring occasionally.",
       "Meanwhile, make the salsa by combining all the salsa ingredients in a medium-size bowl. Set aside. (Or use store-bought salsa if you're in a rush.)",
