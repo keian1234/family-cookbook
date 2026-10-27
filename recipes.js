@@ -50,6 +50,66 @@ const RECIPES = [
     ]
   },
   {
+    id: "best-instapot-chili",
+    title: "The Best Instapot Chili",
+    sourceUrl: "https://ohsweetbasil.com/instant-pot-award-winning-chili-recipe/",
+    image: "images/best-instapot-chili.jpg",
+    category: [
+      "🍜 Soup"
+    ],
+    cuisine: [
+      "🇺🇸 American"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Insta Pot",
+      "Comfort Food",
+      "Football"
+    ],
+    rating: null,
+    time: "50 min",
+    servings: 8,
+    ingredients: [
+      "1 1/2 lbs ground beef",
+      "6 strips bacon, chopped",
+      "1 can kidney beans",
+      "1 can pinto beans",
+      "1 can black beans",
+      "1 can fire roasted diced tomatoes",
+      "1 can tomato paste",
+      "1 red onion, chopped",
+      "1 red bell pepper, chopped",
+      "1 jalapeño, seeded and minced",
+      "2 cups beef stock",
+      "1 tbsp dried oregano",
+      "2 tsp kosher salt",
+      "2 tsp ground cumin",
+      "1 tsp ground black pepper",
+      "1 tsp smoked paprika",
+      "2 tbsp chili powder",
+      "1 tbsp Worcestershire sauce",
+      "1 tbsp minced garlic",
+      "Toppings: sour cream, cilantro, cheese, lime"
+    ],
+    steps: [
+      "Turn your Instant Pot to sauté and add the bacon. Cook until crisp, stirring often to cook evenly.",
+      "Remove the bacon to a paper towel lined plate.",
+      "Add the onion and bell pepper and cook until tender.",
+      "Add the ground beef and cook until browned.",
+      "Drain off any excess grease — just tilt the pot and use a large spoon.",
+      "Add all of the remaining ingredients and 3/4 of the bacon and stir to combine.",
+      "Turn the Instant Pot to the chili setting (or use the manual setting if you don't have one) and cook for 18-20 minutes. Allow pressure to release naturally for 10-15 minutes, or quick release with the vent.",
+      "Serve with lime, sour cream, cheese, cilantro, and the rest of the bacon!"
+    ]
+  },
+  {
     id: "bruschetta",
     title: "Bruschetta",
     sourceUrl: "",
@@ -173,6 +233,58 @@ const RECIPES = [
     steps: [
       "Place cream cheese in slow cooker. Top with chicken, Frank's RedHot, ranch dressing and 1/2 cup of the Cheddar cheese. Cover.",
       "Cook on HIGH 1 1/2 to 2 hours or until heated through. Stir until well-mixed; top with remaining 1/2 cup cheese and sprinkle with green onions. Cover. Cook 15 minutes longer or until cheese is melted. Serve sprinkled with blue cheese"
+    ]
+  },
+  {
+    id: "chicken-enchiladas",
+    title: "Chicken Enchiladas",
+    sourceUrl: "https://www.instagram.com/reel/C2NMg6gMW9D/?igsh=MWV1Mjh6OGxlZWZnYg%3D%3D",
+    image: "images/chicken-enchiladas.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🇲🇽 Mexican"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Comfort Food",
+      "Football"
+    ],
+    rating: null,
+    time: "50 min",
+    servings: 8,
+    ingredients: [
+      "2-2.5 cups shredded chicken (rotisserie chicken works great)",
+      "1.5 cups corn (canned, fresh, or frozen — frozen fire roasted corn is great)",
+      "2 cups shredded cheddar cheese (a mix of standard and white cheddar)",
+      "1/2 red onion, finely diced",
+      "1/4-1/2 cup diced pickled jalapeños (for less heat, swap for a can of green chilis)",
+      "1/3 cup plain Greek yogurt",
+      "1 lime, juiced",
+      "1 tsp cumin",
+      "1 tsp chili powder",
+      "1 tsp garlic powder",
+      "Salt & pepper",
+      "8 flour tortillas",
+      "12 oz green enchilada sauce",
+      "Toppings: diced red onion, cilantro, sour cream, salsa, etc."
+    ],
+    steps: [
+      "Preheat oven to 375°F and grease the bottom of a 9x13 pan with cooking spray.",
+      "In a large bowl, add the shredded chicken, corn, 1 cup shredded cheddar cheese, red onion, and pickled jalapeños and mix well to combine.",
+      "In a separate bowl, add the Greek yogurt, lime juice, cumin, chili powder, garlic powder, salt, pepper, and 3-4 tbsp of enchilada sauce and whisk until well combined.",
+      "Pour the yogurt mixture into the chicken and mix until well combined.",
+      "Add 3-4 tbsp of enchilada sauce to the bottom of the pan. Add 3-4 tbsp of the chicken filling to each tortilla, roll tightly, and place seam side down in the pan. Repeat with the rest of the tortillas.",
+      "Pour the remaining enchilada sauce over the tortillas, top with the remaining cup of cheese, and bake for 35 minutes or until the cheese is golden brown.",
+      "Top with diced red onion and fresh cilantro and ENJOY!"
     ]
   },
   {
@@ -326,6 +438,70 @@ const RECIPES = [
       "Mix butter, garlic, and olive oil in a small bowl until combined. Spread butter mixture on one side of each slice of bread.",
       "Arrange bread slices, butter-side up, in a single layer on an ungreased cookie sheet.",
       "Bake in the preheated oven until lightly toasted and hard, about 8 to 10 minutes"
+    ]
+  },
+  {
+    id: "garlic-parmesan-chicken-tenders",
+    title: "Garlic Parmesan Chicken Tenders",
+    sourceUrl: "",
+    image: "images/garlic-parmesan-chicken-tenders.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🇺🇸 American"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Football",
+      "Watch Parties"
+    ],
+    rating: null,
+    time: "30 min",
+    servings: 4,
+    ingredients: [
+      {
+        group: "Tenders",
+        items: [
+          "Chicken breast",
+          "1 tbsp garlic powder",
+          "1 tbsp onion powder",
+          "1 tbsp black pepper",
+          "2 tbsp chicken bouillon powder",
+          "1-2 tsp cayenne (optional)",
+          "2 tbsp cornstarch",
+          "1 egg",
+          "Cornflakes",
+          "Melted butter, for brushing"
+        ]
+      },
+      {
+        group: "Garlic Parmesan Sauce",
+        items: [
+          "1/4 cup parmesan cheese",
+          "1/2 cup cottage cheese",
+          "1/2 cup light mayo",
+          "4 tbsp butter, melted",
+          "2-5 garlic cloves, minced"
+        ]
+      }
+    ],
+    steps: [
+      "Cut the chicken breast into tenders of your desired size.",
+      "In a medium mixing bowl, add the seasonings, chicken strips, cornstarch, and egg. Mix.",
+      "In a zip lock bag, crush the cornflakes until they're like bread crumbs.",
+      "Coat each chicken strip in the cornflakes, then place on the rack in the air fryer.",
+      "Melt some butter and lightly brush it over the chicken.",
+      "Air fry for 13-15 minutes at 350°F.",
+      "While the chicken cooks, mix the sauce: parmesan, cottage cheese, light mayo, melted butter, and garlic.",
+      "Pull the chicken out and coat it in the sauce or use it for dipping."
     ]
   },
   {
@@ -602,6 +778,213 @@ const RECIPES = [
       "2 minutes before the pasta is done, add 1/3 to 1/2 cup cream, 1/3 cup shredded parmesan, 1/3 cup shredded mozzarella, and 1 to 2 tbsp ricotta cheese.",
       "Mix well, taste, and adjust.",
       "This is best served right away. Serve in bowls, top with anything you want, or eat as is. I topped with a touch more cheese, fresh basil, and more Calabrian chili flakes for heat."
+    ]
+  },
+  {
+    id: "marinade-oven-pork-tenderloin",
+    title: "Marinade + Oven Pork Tenderloin",
+    sourceUrl: "https://www.savorynothings.com/pork-tenderloin-marinade/",
+    image: "images/marinade-oven-pork-tenderloin.jpg",
+    category: [
+      "🥩 Protein"
+    ],
+    cuisine: [
+      "🇺🇸 American"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Favorite",
+    tags: [
+      "Healthy"
+    ],
+    rating: 5,
+    time: "1 hr 30 min (with marinate)",
+    servings: 4,
+    ingredients: [
+      "1 pork tenderloin",
+      "1/4 cup olive oil",
+      "2 tbsp soy sauce",
+      "2 tbsp honey (mild and runny preferred)",
+      "2 tbsp Dijon mustard (smooth, whole-grain, or a mix of both)",
+      "1 tbsp brown sugar",
+      "1 tbsp lemon juice (fresh or bottled are both fine)",
+      "1 tsp Worcestershire sauce",
+      "2 cloves garlic, minced",
+      "1 tbsp chopped parsley",
+      "1/2 tsp garlic powder",
+      "1/2 tsp salt",
+      "Ground black pepper, to taste"
+    ],
+    steps: [
+      "Combine the marinade ingredients in a measuring jug. Whisk well.",
+      "Place the pork tenderloin in a freezer bag and pour the marinade on top. Close the bag well, then lightly massage the marinade into the pork.",
+      "Marinate in the fridge for at least 1 hour, and up to 3 days.",
+      "Remove the pork tenderloin from the bag, discarding the marinade and bag.",
+      "Cook the tenderloin in the oven at 400°F until the internal temperature reaches 145°F."
+    ]
+  },
+  {
+    id: "middle-eastern-chicken-and-rice",
+    title: "Middle Eastern Chicken and Rice",
+    sourceUrl: "",
+    image: "images/middle-eastern-chicken-and-rice.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🧆 Middle Eastern"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Healthy",
+      "Meal Prep"
+    ],
+    rating: null,
+    time: "45 min (+ 2 hr marinate)",
+    servings: 4,
+    ingredients: [
+      {
+        group: "Chicken",
+        items: [
+          "2 lbs chicken thighs, diced",
+          "1 tbsp smoked paprika",
+          "1 tbsp garlic powder",
+          "1/2 tbsp sumac",
+          "1/2 tbsp oregano",
+          "1/2 tsp cumin",
+          "1/4 tsp cinnamon",
+          "A few pinches of salt",
+          "Ground pepper",
+          "2 tbsp plain yogurt",
+          "Juice of 1/2 lemon",
+          "1 tbsp avocado oil"
+        ]
+      },
+      {
+        group: "Sumac Onions",
+        items: [
+          "1 large red onion, thinly sliced",
+          "2-3 pinches salt",
+          "1-2 tbsp sumac",
+          "Juice of 1 large lemon"
+        ]
+      },
+      {
+        group: "White Sauce",
+        items: [
+          "3 tbsp mayo",
+          "2 tbsp sour cream",
+          "3 tbsp white vinegar",
+          "A small pinch of salt",
+          "Lots of fresh cracked pepper"
+        ]
+      },
+      {
+        group: "Bowl",
+        items: [
+          "Rice (or low-carb rice, cauli rice, or quinoa)",
+          "Chicken broth, for cooking the rice (optional)",
+          "Shredded iceberg lettuce",
+          "Tomato, thinly sliced",
+          "Fresh parsley, finely chopped",
+          "Hot sauce or sriracha"
+        ]
+      }
+    ],
+    steps: [
+      "Dice the chicken thighs and add to a bowl. Mix with the smoked paprika, garlic powder, sumac, oregano, cumin, cinnamon, salt, pepper, yogurt, and lemon juice. Mix VERY well, then ideally let it marinate for 2 hours to overnight (or cook right away if you need to).",
+      "When you're ready to eat, heat a pan over medium heat, add the avocado oil and the chicken, and cook it through, mixing often with a spatula. This takes about 10-12 minutes depending on the thickness of the chicken.",
+      "Make the sumac pickled onions: cut the red onion in half and thinly slice it. Add to a bowl, sprinkle with salt and sumac, and add the lemon juice. Mix well, then let sit for 10-15 minutes, stirring a couple of times.",
+      "Get the other veggies ready: thinly slice the lettuce and tomato, and finely chop the parsley.",
+      "Make the white sauce by mixing the mayo, sour cream, white vinegar, salt, and lots of cracked pepper. Mix well.",
+      "Get your base ready. Use rice, low-carb rice, cauli rice, quinoa, or whatever you like — cooking it in a mix of salted water and chicken broth adds flavor.",
+      "Add a serving of rice to the bowl, then the chicken, then pile it high with lettuce, tomato, pickled onions, and fresh herbs. Drizzle with the white sauce and hot sauce or sriracha. ENJOY."
+    ]
+  },
+  {
+    id: "spicy-korean-bbq-chicken-bowl",
+    title: "Spicy Korean BBQ Chicken Bowl",
+    sourceUrl: "https://www.foodbanjo.com/air-fryer-gochujang-chicken-thighs/",
+    image: "images/spicy-korean-bbq-chicken-bowl.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🇰🇷 Korean"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Favorite",
+    tags: [
+      "Healthy",
+      "Meal Prep"
+    ],
+    rating: 5,
+    time: "50 min (with marinate)",
+    servings: 2,
+    ingredients: [
+      {
+        group: "Chicken",
+        items: [
+          "4 boneless skinless chicken thighs",
+          "3 tbsp gochujang",
+          "2 tbsp soy sauce",
+          "1 tbsp brown sugar",
+          "1 tsp sesame oil",
+          "1/2 tsp garlic powder",
+          "1/2 tsp onion powder",
+          "Green onion (optional)",
+          "Sesame seeds (optional)",
+          "Oil for the air fryer basket"
+        ]
+      },
+      {
+        group: "Korean Cucumber Salad",
+        items: [
+          "2 large cucumbers, thinly sliced",
+          "1/2 red onion, thinly sliced",
+          "1/4 cup rice vinegar",
+          "1 tbsp sugar",
+          "1 tbsp soy sauce",
+          "1 tsp sesame oil",
+          "1 tsp toasted sesame seeds",
+          "1 clove garlic, minced",
+          "1/4 tsp chili flakes (optional)",
+          "Fresh cilantro, chopped"
+        ]
+      },
+      {
+        group: "For Serving",
+        items: [
+          "Cooked white rice",
+          "Kimchi"
+        ]
+      }
+    ],
+    steps: [
+      "In a large bowl, add the gochujang, soy sauce, brown sugar, sesame oil, onion powder, and garlic powder. Stir until combined.",
+      "Add the chicken thighs and mix until coated in the sauce. Cover and marinate in the refrigerator for 30 minutes (up to 2 hours).",
+      "While the chicken marinates, start the rice. Thinly slice the cucumbers and red onion and add to a bowl with the rest of the salad ingredients. Stir to combine and let marinate for as long as you can!",
+      "Preheat the air fryer for 5 minutes at 400°F. Brush or lightly spray the basket with oil.",
+      "Add the chicken thighs to the basket in a single layer. Air fry at 400°F for 13-15 minutes, flipping halfway through.",
+      "Serve over rice with the cucumber salad and kimchi, topped with green onion and sesame seeds."
     ]
   },
   {
