@@ -244,7 +244,7 @@ const RECIPES = [
       "🍝 Dinner"
     ],
     cuisine: [
-      "🇲🇽 Mexican"
+      "🌎 South American"
     ],
     season: [
       "☀️ Summer",
@@ -333,6 +333,47 @@ const RECIPES = [
       "If using store-bought noodles, be cautious not to overcook them! Remove pot from heat as soon as they are just barely tender. The noodles will continue to cook once you remove the pot from the heat, and you don’t want them mushy.",
       "Add chicken meat from the rotisserie chicken. Taste the broth again and add more seasonings, if needed.",
       "Store leftovers in an airtight container in the refrigerator for 4-5 days, depending on the freshness of the chicken you used"
+    ]
+  },
+  {
+    id: "chimichurri",
+    title: "Chimichurri",
+    sourceUrl: "https://www.aimeemars.com/chimichurri-recipe/",
+    image: "images/chimichurri.jpg",
+    category: [
+      "🍟 Apps & Sides"
+    ],
+    cuisine: [
+      "🌎 South American"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [],
+    rating: 3,
+    time: "15 min",
+    servings: 16,
+    ingredients: [
+      "3 garlic cloves, minced",
+      "1 shallot, chopped",
+      "1 tbsp red wine vinegar",
+      "1 tbsp fresh squeezed lemon juice",
+      "1/2 cup fresh parsley, packed",
+      "1/2 cup fresh basil leaves, packed",
+      "1/4 cup fresh cilantro leaves, packed",
+      "1/4 cup extra virgin olive oil",
+      "1/2 tsp ground coriander",
+      "1/2 tsp ground cumin",
+      "1/2 tsp salt"
+    ],
+    steps: [
+      "Combine the minced garlic, chopped shallot, red wine vinegar, and lemon juice in a small bowl and let marinate for 10 minutes.",
+      "Finely chop the parsley, basil, and cilantro. Place the garlic mixture and the chopped greens into a food processor or blender and add the olive oil. Pulse two to three times, but don’t over blend. Stir in the coriander, cumin, and salt."
     ]
   },
   {
@@ -1042,7 +1083,7 @@ const RECIPES = [
       "🍝 Dinner"
     ],
     cuisine: [
-      "🇲🇽 Mexican"
+      "🌎 South American"
     ],
     season: [
       "❄️ Winter",
