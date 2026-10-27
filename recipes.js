@@ -110,6 +110,56 @@ const RECIPES = [
     ]
   },
   {
+    id: "boursin-tomato-pasta",
+    title: "Boursin Cheese and Tomato Pasta",
+    sourceUrl: "",
+    image: "images/boursin-tomato-pasta.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🇮🇹 Italian"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Comfort Food"
+    ],
+    rating: null,
+    time: "55 min",
+    servings: 4,
+    ingredients: [
+      "2 pints cherry tomatoes",
+      "1-2 Boursin cheese",
+      "Goat cheese",
+      "3-4 garlic cloves, finely minced",
+      "1-2 tbsp olive oil",
+      "1 tbsp chili flakes or aleppo pepper",
+      "1 tbsp oregano",
+      "Salt",
+      "Fresh cracked pepper",
+      "1-2 tbsp good balsamic vinegar or glaze",
+      "Pasta (e.g. ziti, or Kaizen low-carb high-protein pasta)",
+      "Grated parmesan",
+      "Fresh basil"
+    ],
+    steps: [
+      "Grab an oven safe dish. Toss in 2 pints of cherry tomatoes and 3-4 finely minced garlic cloves.",
+      "Add your Boursin cheese in the middle. You can use 1 cheese or 2, it's completely up to you.",
+      "Drizzle in 1-2 tbsp of olive oil, 1 tbsp of chili flakes or aleppo pepper, 1 tbsp oregano, and a couple pinches of salt and fresh cracked pepper. Drizzle 1 to 2 tbsp of a GOOD balsamic vinegar or glaze on top.",
+      "Put the dish in the oven for 45 minutes at 400°F.",
+      "Before you pull it out of the oven, get your pasta ready. Any pasta works — for low-carb and high-protein, use Kaizen pasta (also gluten free). Boil ziti for 4 minutes in generously salted water if you'll bake it again for a few minutes, or 5-6 minutes if you'll eat it without baking again.",
+      "Bring the baked dish out of the oven and use a fork to gently smash the tomatoes and cheese. Mix it well, toss in your boiled pasta, and mix well.",
+      "Top it with more grated parmesan, fresh basil, and chili flakes to your heart's desire."
+    ]
+  },
+  {
     id: "bruschetta",
     title: "Bruschetta",
     sourceUrl: "",
@@ -479,6 +529,59 @@ const RECIPES = [
       "Mix butter, garlic, and olive oil in a small bowl until combined. Spread butter mixture on one side of each slice of bread.",
       "Arrange bread slices, butter-side up, in a single layer on an ungreased cookie sheet.",
       "Bake in the preheated oven until lightly toasted and hard, about 8 to 10 minutes"
+    ]
+  },
+  {
+    id: "eggplant-lasagna",
+    title: "Eggplant Lasagna",
+    sourceUrl: "",
+    image: "images/eggplant-lasagna.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🇮🇹 Italian"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Comfort Food",
+      "Healthy"
+    ],
+    rating: null,
+    time: "1 hr 15 min",
+    servings: 6,
+    ingredients: [
+      "2 large eggplants, sliced",
+      "3 tbsp olive oil",
+      "1 1/2 tsp kosher salt",
+      "1/2 tsp pepper",
+      "16 oz sliced cremini (baby bella) mushrooms",
+      "3 cloves garlic, minced",
+      "Dried oregano",
+      "1 (24 oz) jar marinara",
+      "1 (15 oz) container part skim ricotta cheese",
+      "1 (10 oz) package frozen chopped spinach, thawed and squeezed dry",
+      "1/2 cup grated parmesan",
+      "1 large egg",
+      "1 cup shredded part skim mozzarella",
+      "2 tbsp chopped fresh basil, thyme, or parsley"
+    ],
+    steps: [
+      "Position racks in the upper and lower thirds of your oven. Preheat the oven to 400°F. Lightly coat 2 rimmed baking sheets with nonstick spray. Coat a 9x13-inch baking dish with nonstick spray and set aside.",
+      "Arrange sliced eggplant in a single layer on the 2 sheet pans — if some of your end-most eggplant slices are very curved, trim off the outermost curvy portion so that the slices lay mostly flat. Brush 2 1/2 tbsp of the oil over both sides of all of the slices. Sprinkle 1/2 tsp kosher salt and 1/4 tsp pepper over the top.",
+      "Roast the eggplant until it is soft and golden, about 25 minutes, flipping the slices over and swapping the pans' positions once halfway through. Remove the slices from the oven and reduce the oven temperature to 350°F.",
+      "Meanwhile, in a large skillet heat the remaining 1/2 tbsp oil over medium heat. Add the sliced mushrooms. Sauté until the mushrooms are soft, about 7 minutes. Add the minced garlic, 1/2 tsp kosher salt, and oregano. Cook for another 2 minutes. Remove the pan from the heat. Add the marinara and stir to combine.",
+      "In a large bowl add the ricotta, 1/4 cup parmesan, egg, and remaining 1/2 tsp salt and 1/4 tsp pepper. Mix well, until the mixture is evenly combined. Stir in the spinach, using a fork to break it up and distribute it as evenly with the ricotta mixture as possible.",
+      "Spoon half of the mushroom marinara sauce on the bottom of the prepared baking dish and spread it into an even layer. Lay 4 eggplant slices on top followed by all of the ricotta mixture. Layer on another 4 slices of eggplant and finish with the remaining mushroom marinara sauce. Top with the mozzarella and remaining 1/4 cup parmesan.",
+      "Bake for 25 to 30 minutes, until the cheese is melted and the lasagna is hot and bubbly. Remove from the oven and sprinkle with fresh herbs. Let rest 5 to 10 minutes, then serve.",
+      "Leftovers keep in the fridge for up to 4 days — rewarm gently in the microwave or covered in a 350°F oven. Don't freeze it (eggplant gets watery). For meal prep, roast the eggplant and make the ricotta and mushroom marinara layers up to 1 day ahead, stored separately; assemble just before baking or up to 4 hours ahead."
     ]
   },
   {
@@ -1071,6 +1174,77 @@ const RECIPES = [
       "Stir in artichokes and spinach.",
       "Spread mixture evenly into prepared baking dish. Bake in preheated oven until heated through and melty, about 20 minutes.",
       "Serve warm with tortilla chips, crackers, or toasted baguette slices"
+    ]
+  },
+  {
+    id: "taco-stuffed-sweet-potatoes",
+    title: "Taco Stuffed Sweet Potatoes",
+    sourceUrl: "",
+    image: "images/taco-stuffed-sweet-potatoes.jpg",
+    category: [
+      "🍝 Dinner"
+    ],
+    cuisine: [
+      "🌎 South American"
+    ],
+    season: [
+      "☀️ Summer",
+      "❄️ Winter",
+      "🌷 Spring",
+      "🍂 Fall",
+      "🎄 Holiday"
+    ],
+    status: "Made",
+    tags: [
+      "Healthy",
+      "Meal Prep"
+    ],
+    rating: null,
+    time: "1 hr 10 min",
+    servings: "2-4",
+    ingredients: [
+      {
+        group: "Sweet Potatoes & Taco Beef",
+        items: [
+          "2 medium sweet potatoes (wide ones are easier to stuff)",
+          "1 lb grass fed ground beef",
+          "1 cup onions, diced",
+          "3 cloves garlic, minced",
+          "1/2 cup tomato sauce, homemade or store bought",
+          "2 tsp cumin powder",
+          "1 tsp coriander powder",
+          "2 tsp onion powder",
+          "1 tsp smoked paprika",
+          "Salt",
+          "Pepper",
+          "Olive oil",
+          "1/2 cup water or beef broth"
+        ]
+      },
+      {
+        group: "Salsa",
+        items: [
+          "2 medium tomatoes, diced",
+          "1/4 cup red onion",
+          "1 green bell pepper",
+          "1 tsp jalapeño",
+          "Fresh cilantro",
+          "1 tbsp fresh lime juice",
+          "1 small garlic clove, minced",
+          "Salt and pepper"
+        ]
+      }
+    ],
+    steps: [
+      "Preheat oven to 400°F. Line a baking sheet with aluminum foil or parchment paper.",
+      "Wash the sweet potatoes, scrub thoroughly, then dry completely.",
+      "Using a fork, poke the sweet potatoes all over and place on the baking sheet. Bake for 50-60 minutes or until tender and easily pierced through to the center with a fork.",
+      "While the sweet potatoes bake, prepare the taco ground beef. In a skillet, add olive oil over medium high heat.",
+      "Add the ground beef and brown until no longer pink. Reduce the heat to medium and add the onion and garlic. Sauté until the onions are translucent.",
+      "Add all the spices and mix everything well to combine.",
+      "Pour over the tomato sauce and water. Reduce the heat to low, cover with a lid, and cook for 20-25 minutes, stirring occasionally.",
+      "Meanwhile, make the salsa by combining all the salsa ingredients in a medium-size bowl. Set aside. (Or use store-bought salsa if you're in a rush.)",
+      "To assemble, cut the warm baked sweet potatoes down the center lengthwise. Fill with the taco meat and top with salsa. Serve immediately, or store separately in meal-prep containers in the fridge for up to 4 days (reheat in the microwave). Freezes for up to 3 months."
     ]
   },
   {
