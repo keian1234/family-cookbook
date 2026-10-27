@@ -341,7 +341,7 @@ const RECIPES = [
     sourceUrl: "https://www.aimeemars.com/chimichurri-recipe/",
     image: "images/chimichurri.jpg",
     category: [
-      "🍟 Apps & Sides"
+      "🫙 Sauces & Dressings"
     ],
     cuisine: [
       "🌎 South American"
@@ -355,7 +355,7 @@ const RECIPES = [
     ],
     status: "Made",
     tags: [],
-    rating: 3,
+    rating: 4,
     time: "15 min",
     servings: 16,
     ingredients: [
